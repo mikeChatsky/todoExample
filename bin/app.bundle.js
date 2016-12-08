@@ -21505,16 +21505,16 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var App = function (_Component) {
-	  _inherits(App, _Component);
+	var TodoApp = function (_Component) {
+	  _inherits(TodoApp, _Component);
 
-	  function App() {
-	    _classCallCheck(this, App);
+	  function TodoApp() {
+	    _classCallCheck(this, TodoApp);
 
-	    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (TodoApp.__proto__ || Object.getPrototypeOf(TodoApp)).apply(this, arguments));
 	  }
 
-	  _createClass(App, [{
+	  _createClass(TodoApp, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -21539,10 +21539,10 @@
 	    }
 	  }]);
 
-	  return App;
+	  return TodoApp;
 	}(_react.Component);
 
-	exports.default = App;
+	exports.default = TodoApp;
 
 /***/ },
 /* 179 */
