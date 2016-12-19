@@ -2,7 +2,7 @@ export const CREATE_TODO = 'CREATE_TODO';
 export const DELETE_TODO = 'DELETE_TODO';
 export const UPDATE_TODO = 'UPDATE_TODO';
 
-export default class todoActions {
+export const todoActions = {
   createTodo(text) {
     return {
       type: CREATE_TODO,
@@ -10,7 +10,7 @@ export default class todoActions {
         text: text
       }
     };
-  }
+  },
 
   deleteTodo(id) {
     return {
@@ -19,7 +19,7 @@ export default class todoActions {
         id: id
       }
     };
-  }
+  },
 
   updateTodo(id, text) {
     return {
@@ -30,4 +30,4 @@ export default class todoActions {
       }
     };
   }
-}
+};

@@ -9,6 +9,10 @@ coverage
 # production
 build
 
+# environment
+.idea/workspace.xml
+.idea/tasks.xml
+
 # misc
 .DS_Store
 .env
