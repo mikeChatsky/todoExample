@@ -1,8 +1,8 @@
-import {createStore} from 'redux'
+import {createStore} from 'redux';
 import appReducer from '../reducers/app.reducer';
 //import {todoActions} from '../actions/todoActions'
 
-export createStore(appReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+export default createStore(appReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 // console.log(store.getState());
 //

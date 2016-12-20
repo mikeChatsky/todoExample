@@ -2,7 +2,7 @@ import {DELETE_TODO, CREATE_TODO, UPDATE_TODO} from '../actions/todoActions';
 import {isFSA} from 'flux-standard-action';
 import {Immutable} from 'immutable';
 
-function todos(state = [], action) {
+function todosReducer(state = [], action) {
   if (!isFSA(action)) {
     return state;
   }
@@ -39,4 +39,4 @@ function todos(state = [], action) {
   }
 }
 
-export default todos;
+export default todosReducer;
